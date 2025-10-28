@@ -3,6 +3,7 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { MagnifyingGlassIcon } from "@heroicons/react/16/solid"
+import { MessageCircle } from "lucide-react"
 
 
 export function Header() {
@@ -28,6 +29,21 @@ export function Header() {
             className="bg-[#17A2B8] hover:bg-[#138496] text-white"
             onClick={() => window.open("https://cliente.pid.code100.com.py/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fresponse_type%3Did_token%2520token%26client_id%3Dsigner%26state%3D3jQMUoZvBiwI4RWCQBWE09UhEff7TPCPs6pLgCOX;eyJyZXR1cm5VcmwiOm51bGx9%26redirect_uri%3Dhttps%253A%252F%252Fdataflow.code100.com.py%26scope%3Dopenid%2520profile%2520cpf%2520signer-api%26nonce%3D3jQMUoZvBiwI4RWCQBWE09UhEff7TPCPs6pLgCOX%26culture%3Des", "_blank")}
           >LOGIN</Button>
+          <div className="pl-10">
+            <Button
+              variant="outline"
+              className="border-[#25D366] text-[#25D366] hover:bg-[#25D366] hover:text-white bg-transparent flex items-center gap-2 px-3"
+              onClick={() =>
+                window.open(
+                  "https://wa.me/595992460600?text=Hola,%20me%20gustaría%20obtener%20más%20información",
+                  "_blank",
+                )
+              }
+            >
+              <MessageCircle className="h-5 w-5" />
+              <span className="hidden md:inline">Comunicate con nosotros</span>
+            </Button>
+          </div>
         </div>
       </div>
     </header>

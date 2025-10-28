@@ -2,7 +2,7 @@ export function VideoDemo() {
     return (
       <section className="relative py-20 px-4 overflow-hidden">
         {/* Gradient background from yellow to green */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#F5A623] via-[#B8C657] to-[#4ECDC4]" />
+        <div className="absolute inset-0 bg-[#17A2B8]" />
   
         <div className="relative max-w-5xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">¡Tenemos la solución perfecta para vos!</h2>

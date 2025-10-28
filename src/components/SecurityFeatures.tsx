@@ -6,7 +6,7 @@ export default function SecurityFeatures() {
   return (
     <section className="relative overflow-hidden">
       {/* Gradient Background */}
-      <div className="absolute inset-0 bg-gradient-to-r from-amber-400 via-lime-400 to-emerald-400" />
+      <div className="absolute inset-0 bg-[#17A2B8]" />
 
       <div className="relative container mx-auto px-4 py-16 md:py-24">
         <div className="grid md:grid-cols-2 gap-8 items-center">

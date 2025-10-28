@@ -24,7 +24,7 @@ export function Features() {
       icon: Shield,
       title: "NO REPUDIO",
       description: "Asegura que la persona identificada como remitente no puede negar haber enviado el mensaje",
-      color: "text-[#7C3AED]",
+      color: "text-[#F59E0B]",
     },
   ]
 
@@ -55,7 +55,7 @@ export function Features() {
       </div>
 
       {/* Gradient bar at bottom */}
-      <div className="absolute bottom-0 left-0 right-0 h-2 bg-gradient-to-r from-yellow-400 via-green-400 to-green-500" />
+      <div className="absolute bottom-0 left-0 right-0 h-2 bg-[#17A2B8]" />
     </section>
   )
 }
