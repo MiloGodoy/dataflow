@@ -35,25 +35,27 @@ export function Header() {
           </Button>
 
           <Button
-            variant="outline"
-            className="border-[#25D366] text-[#25D366] hover:bg-[#25D366] hover:text-white bg-transparent flex items-center gap-2"
-            onClick={() =>
-              window.open(
-                "https://wa.me/595992460600?text=Hola,%20me%20gustaría%20obtener%20más%20información",
-                "_blank",
-              )
-            }
-          >
-            <MessageCircle className="h-5 w-5" />
-            <span>Comunicate con nosotros</span>
-          </Button>
-
-          <Button
             className="bg-[#17A2B8] hover:bg-[#138496] text-white"
             onClick={handleClick}
           >
             LOGIN
           </Button>
+
+          <div className="pl-10">
+            <Button
+              variant="outline"
+              className="border-[#25D366] text-[#25D366] hover:bg-[#25D366] hover:text-white bg-transparent flex items-center gap-2"
+              onClick={() =>
+                window.open(
+                  "https://wa.me/595992460600?text=Hola,%20me%20gustaría%20obtener%20más%20información",
+                  "_blank",
+                )
+              }
+            >
+              <MessageCircle className="h-5 w-5" />
+              <span>Comunicate con nosotros</span>
+            </Button>
+          </div>
         </div>
 
         <Sheet open={isOpen} onOpenChange={setIsOpen}>
