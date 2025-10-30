@@ -53,26 +53,23 @@ export function Header() {
         <div className="flex md:hidden items-center gap-2">
           <Button
             variant="ghost"
-            size="icon"
-            className="text-[#17A2B8] hover:bg-[#17A2B8] hover:text-white"
+            className="text-[#17A2B8] hover:bg-[#17A2B8] hover:text-white p-3 h-auto w-auto"
             onClick={() => window.open("https://dataflow.code100.com.py/validate", "_blank")}
           >
-            <FileSearch className="h-5 w-5" />
+            <FileSearch className="scale-200" />
           </Button>
 
           <Button
             variant="ghost"
-            size="icon"
-            className="text-[#17A2B8] hover:bg-[#17A2B8] hover:text-white"
+            className="text-[#17A2B8] hover:bg-[#17A2B8] hover:text-white p-3 h-auto w-auto"
             onClick={() => window.open(loginUrl, "_blank")}
           >
-            <User className="h-5 w-5" />
+            <User className="scale-200" />
           </Button>
 
           <Button
             variant="ghost"
-            size="icon"
-            className="text-[#25D366] hover:bg-[#25D366] hover:text-white"
+            className="text-[#25D366] hover:bg-[#25D366] hover:text-white p-3 h-auto w-auto"
             onClick={() =>
               window.open(
                 "https://wa.me/595992460600?text=Hola,%20me%20gustaría%20obtener%20más%20información",
@@ -80,7 +77,7 @@ export function Header() {
               )
             }
           >
-            <MessageCircle className="h-5 w-5" />
+            <MessageCircle className="scale-200" />
           </Button>
         </div>
       </div>
